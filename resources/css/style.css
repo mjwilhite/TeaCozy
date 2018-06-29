@@ -65,8 +65,10 @@ header {
 }
 
 header nav {
+  justify-content: flex-end;
   border: 1px solid black;
   padding-right: 10px;
+  align-self: center;
 }
 /* Main Content */
 
@@ -90,7 +92,15 @@ header nav {
   background-color: black;
 }
 
-.mission span {
+.mission h2 span {
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 1200px;
+  align-content: center;
+}
+
+.mission h4 span {
   background-color: black;
   opacity: 0.9;
   text-align: center;
