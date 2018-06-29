@@ -96,7 +96,17 @@ header nav {
   margin: auto;
 }
 
-.mission span {
+.mission h4 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 1200px;
+  align-content: center;
+}
+
+.mission h2 {
   display: flex;
   justify-content: center;
   background-color: black;
