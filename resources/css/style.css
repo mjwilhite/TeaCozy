@@ -114,7 +114,7 @@ header nav {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1000px;
-  background-color: black;
+  padding-top: 70px;
 }
 
 .featured span {
