@@ -92,7 +92,9 @@ header nav {
   background-color: black;
 }
 
-.mission h2 span {
+.content h2 span {
+  display: flex;
+  justify-content: center;
   background-color: black;
   opacity: 0.9;
   text-align: center;
@@ -100,7 +102,9 @@ header nav {
   align-content: center;
 }
 
-.mission h4 span {
+.content h4 span {
+  display: flex;
+  justify-content: center;
   background-color: black;
   opacity: 0.9;
   text-align: center;
