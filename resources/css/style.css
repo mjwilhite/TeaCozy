@@ -82,7 +82,7 @@ header nav {
 
 .mission {
   display: flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-image: url(../images/img-mission-background.jpg);
   height: 700px;
   margin: 50px;
   background-size: cover;
@@ -144,7 +144,7 @@ header nav {
 
 .locations {
   display: flex;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+  background-image: url(../images/img-locations-background.jpg);
   justify-content: center;
   align-items: center;
   flex-direction: row;
