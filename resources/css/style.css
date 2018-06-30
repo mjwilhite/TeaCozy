@@ -83,11 +83,17 @@ h2, h3, h4 {
 /* Featured */
 
 #featured {
-  height: 700px;
   margin: auto;
   width: 1000px;
   padding-top: 70px;
   text-align: center;
+}
+
+.flex-container .teas {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .teas {
@@ -111,19 +117,22 @@ h2, h3, h4 {
 /* Locations */
 
 #locations {
+  display: flex;
   background-image: url(../images/img-locations-background.jpg);
   height: 500px;
   padding-top: 70px;
   width: 1200px;
+  text-align: center;
 }
 
 #locations .flex-container {
   margin: auto;
-  width: 1100px
+  justify-content: center;
 }
 
 .flex-container .addresses {
   padding-top: 5px;
+  display: inline-flex;
 }
 
 .address {
@@ -133,9 +142,11 @@ h2, h3, h4 {
   margin: 5px 20px;
   background-color: black;
   flex-basis: 280px;
-  display: flex;
   flex-direction: column;
   justify-content: center;
+  height: 300px;
+  width: 300px;
+  margin: 15px 20px;
 }
 
 /* Footer */
