@@ -121,6 +121,8 @@ h2, h3, h4 {
   padding-top: 70px;
   width: 1200px;
   text-align: center;
+  margin: auto;
+  height: 500px;
 }
 
 #locations .flex-container {
